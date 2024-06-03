@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: digital;
+    src: url(./digital-7.ttf);
+}
+
+.clock {
+    width: 95%;
+    height: 670px;
+    background-color: #111;
+    margin: 50px auto;
+    color: rgb(38, 199, 6);
+
+    .hours {
+        padding-top: 50px;
+        width: 100%;
+
+        h1 {
+            font-size: 19vw;
+            text-align: center;
+
+            i {
+                font-family: digital;
+            }
+        }
+    }
+
+    .week {
+        width: 100%;
+        padding: 50px 7%;
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+
+        .time {
+            margin: 0 25px;
+        }
+
+        .time2 {
+            opacity: .4;
+        }
+
+        .weeks {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            margin-left: 50px;
+
+            p {
+                opacity: .4;
+
+                &:nth-child(5) {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .fullYear {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        gap: 100px;
+        padding: 0 9%;
+        margin: 60px 0;
+
+        .date {
+            font-size: 30px;
+            text-align: center;
+            font-weight: 500;
+
+            span {
+                font-family: digital;
+                font-size: 50px;
+                letter-spacing: 10px;
+            }
+        }
+
+        .temp {
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            gap: 20px;
+            font-size: 35px;
+        }
+
+    }
+
+
+}

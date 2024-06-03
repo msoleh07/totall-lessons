@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.cards {
+    width: 90%;
+    height: 80vh;
+    background-color: pink;
+    margin: 50px auto;
+    display: grid;
+    gap: 10px;
+    /* grid-template-columns: repeat(3, auto) => ustunlar soni,  bola element kengligi yoziladi */
+    /* grid-template-columns: repeat(3, auto); */
+    /*grid-template-rows: repeat(5, 200px);=> qator soni,  bola element balandligi yoziladi */
+    /* grid-template-rows: repeat(5, 200px); */
+
+    /* ------------------------- */
+    grid-template-columns: 100px 200px 200px 100px auto;
+}
+
+.cards>.box {
+    display: grid;
+    place-items: center;
+    background-color: violet;
+}
+
+/* .cards>.box:first-child {
+    background-color: red;
+    grid-column: 1 / span 3;
+}
+
+.cards>.box:nth-child(2) {
+    background-color: yellow;
+    grid-row: 2 / span 4;
+}
+
+.cards>.box:last-child {
+    background-color: blue;
+} */

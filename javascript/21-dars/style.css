@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+form {
+    width: 100%;
+    padding: 3% 3%;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+form input {
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    height: 30px;
+    text-indent: 10px;
+    font-size: 18px;
+}
+
+form .last {
+    width: 70px;
+    font-size: 10px;
+}
+
+form button {
+    /* height: 30px; */
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 162, 0);
+    cursor: pointer;
+}
+
+
+.zakazlar {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eee;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.zakazlar .zakaz_item {
+    width: 210px;
+    background-color: rgba(175, 175, 175, 0.422);
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.zakazlar .zakaz_item img {
+    width: 100%;
+    height: 200px;
+}

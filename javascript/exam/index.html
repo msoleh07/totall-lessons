@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Exam</h1>
+    <p>algoritm-coin.uz</p>
+
+
+
+    <script>
+        let email = "bahromjon"
+        let password = "1234"
+
+        let savedEmail = localStorage.getItem('email')
+        let savedPassword = localStorage.getItem('password')
+
+        function check() {
+            if (email == savedEmail && password == savedPassword) {
+                alert("succesfully")
+            }
+            else {
+                alert("notogri")
+            }
+        }
+
+    </script>
+
+
+</body>
+
+</html>

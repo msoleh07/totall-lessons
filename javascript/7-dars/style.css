@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.carousel {
+    width: 90%;
+    height: 600px;
+    background-color: yellow;
+    margin: 100px auto;
+    position: relative;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel button {
+    font-size: 40px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.carousel button:last-child {
+    left: 93%;
+}
+
+/*
+.carousel button:last-child:active {
+    transform: translateX(30px);
+}
+
+.carousel button:active {
+    transform: translateX(-30px);
+} */

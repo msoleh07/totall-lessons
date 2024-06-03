@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>  
+    <header> 
+        <div class="text">
+
+            <img src="./yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy.png" alt="">
+            <a href="./">Home</a>
+            <a href="./">Docs</a>
+            <a href="./">Pricing</a>
+            <a href="./">Contact Us</a>
+        </div>
+        <div class="btn">
+            <button onclick="show()" class="btn1">Sing In</button>
+            <button onclick="showdate()" class="btn2">Sing Up Free</button>
+        </div>
+    </header>
+
+    <div class="sing_up">
+        <div class="sing">
+            <img src="./sheoihoifhshohsduooiddddddddddddddddddddddddddddddddddddddddddd.png" alt=""> 
+            <div class="input">
+                <p>Your Name <span>*</span></p>
+                <input type="text" placeholder="">
+            </div>
+            <div class="input">
+                <p>Your Email <span>*</span></p>
+                <input  id="email" type="email" placeholder="">
+            </div>
+            <div class="input">
+                <p> Password <span>*</span></p>
+                <input id="password" type="password" placeholder="">
+            </div>
+
+            <div class="chek">
+                <img src="./С.png" alt=""><span>Я не робот</span>
+                <img style="margin-left: 100px;" src="./Снимок экрана 2023-08-29 2255577777777777777777777777777777777777777777777777777777777777777777777777777777777.png" alt="">
+            </div>
+            <button onclick="sing()">Sing Up</button>
+        </div>
+
+    </div>
+
+    <!-- =========================================================================== -->
+
+<div class="bak">
+    
+    <div class="davomi">
+        <img src="./999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999.png" alt="">
+        <div class="big">
+            <span>Your Email*</span>
+            <br>
+            <input class="email" type="email" placeholder="">
+        </div>
+        <div class="big">
+            <span>Your password*</span>
+            <br>
+            <input class="password" type="dpassword" placeholder="">
+
+        </div>
+        <br>
+        <span>forget your password</span>
+        <br>
+        <button onclick="blink()">Sing In</button>
+
+    </div>
+    <div class="final">
+        <p>New to EmailJS? <a href="./">create your free account now!</a></p>
+    </div>
+</div>
+
+
+    <div class="kontainer">
+    <div class="kontainer_item">
+        <p>{01. Get Stared}</p>
+        <h1>Send Email Directly <br> From Your Code</h1>
+        <br>
+        <span>No server code needed. Focus on things that matter!</span>
+        <br>
+        <button>CREATE FREE ACCOUNT</button>
+    </div>
+    <div class="kontainer_items">
+        <img src="./Снимок экрана 2023-08-29 133834000000000000000000000000000000000000000000.png" alt="">
+    </div>
+    </div>
+
+    <div class="item">
+        <p>{ 02. WHAT YOU NEED TO KNOW }</p>
+        <h1>How does it work?</h1>
+        <div class="items">
+            <div class="cards">
+                <img src="./ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.png" alt="">
+                <p>Connect your email service</p>
+                <span>Choose from a wide variety of email services. <br>We support both transactional email services <br> (Mailgun, Mailjet, Mailtrap, SendinBlue, <br>SendGrid, Amazon SES and Postmark) and <br>personal email services (AOL, Gmail, FastMail, <br> iCloud, Mail.ru, Outlook, Yahoo, Yandex and <br>Zoho).</span>
+                <button class="enter">Learn More</button>
+            </div>
+            <div class="cards">
+                <img src="./111111111111111111111111111111111111111111111111111.png" alt="">
+                <p>Create email template</p>
+                <span>Easily build your own template. Choose the tool <br>most suitable for you: text editor or code editor. <br>Templates are parameterized so that you can <br>further customize them from your code.</span>
+                <button class="enter2">Learn More</button>
+            </div>
+            <div class="cards">
+                <img src="./666666666666666666666666666666666666666666666666666666666666666.png" alt="">
+                <p>Send email from your code</p>
+                <span>Add one of our SDK, and start sending emails!</span>
+                <img id="img" src="./wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.png" alt="">
+                <button class="enter3">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="index">
+        <p>{ 03. FREQUENTLY ASKED QUESTIONS }</p>
+        <h1>FAQ</h1>
+        <div class="resset">
+            <p id="pi">Can I use EmailJS for free?</p>
+            <button><i id="plus" onclick="showplus()" class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+        <div class="textq">
+            <button>
+                <i onclick="klik()" class="fa-solid fa-minus"></i>
+
+            </button>
+            <div class="hr"></div>
+            <span>We believe comunication is fundamental human rights, so we also provide a free version of EmailJS service to public. We don't serve ads or sell <br>your email content or history. EmailJS Free plan is supported by EmailJS paid customers. If you would like to support our mission, please <br>consider <a href="./"> upgrading to a paid plans</a>for security and more features.</span>
+        </div>
+
+        <!-- ================================================================= -->
+        <div class="resset">
+            <p id="piq">Can't I use services like Sendgrid or Mandrill directly?</p>
+            <button><i id="plusq" onclick="showplusq()" class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="textw">
+            <button>
+                <i onclick="klikq()" class="fa-solid fa-minus"></i>
+            </button>
+            <div class="hr"></div>
+
+            
+            <span>All email services require some sort of authentication to send the emails on your behalf. That makes it a really bad idea to use them directly <br> from client-side – revealing your password or your secret keys will allow anyone to send emails on your behalf. <br>EmailJS keeps your authentication details on the server-side, and the client-side code just triggers a predefined email template, similarly to how <br> any client-server application is working.</span>
+        </div>
+        <!-- =================================================================== -->
+        <div class="resset">
+            <p id="pie">Does EmailJS expose my account to spam?</p>
+            <button><i id="pluse" onclick="showpluse()" class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="texte">
+            <button> <i onclick="klike()" class="fa-solid fa-minus"></i></button>
+            <div class="hr"></div>
+            <span>A better way to think of EmailJS in terms of security is not as a service that allows you to send emails from your code, but rather as a service <br> that allows you to create a predefined set of emails via the dashboard, and then just trigger the emails from the code. This is quite similar to <br>how emails are usually sent via a proprietary server code, and also to the way products like Intercom or customer.io are working. <br></span>
+            <span>Additionally, we've also developed various tools to prevent abuse – for instance, we have IP based rate limits to prevent bots from spamming, <br>the whitelist of origin, and also support reCAPTCHA tests to make sure that a human is sending the email (although it's up to the developer to <br> turn this feature on).</span>
+        </div>
+        <!-- ===================================================================== -->
+
+        <div class="resset">
+            <p>sdfklsjdk</p>
+            <button><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="textr">
+            </span>
+        </div>
+        <div class="resset">
+            <p>sdfklsjdk</p>
+            <button><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="textt">
+            </span>
+        </div>
+        <div class="resset">
+            <p>sdfklsjdk</p>
+            <button><i class="fa-solid fa-plus"></i></button>
+        </div>        
+        <div class="texty">
+            
+        </div>
+        <button>ask a question</button>
+    </div>
+
+
+
+
+
+
+    <div class="futer">
+        <p>{ 04. LOVED AND TRUSTED BY }</p>
+        <h1>Over 25,000 developers around the world <br>trust EmailJS to send emails</h1>
+        <button>get started</button>
+
+        <div class="futer_item">
+            <div class="sent"></div>
+            <br>
+            <span>Copyright © 2023 EmailJS Pte Ltd, All rights reserved. <br>Follow us on <a href="./"> Twitter</a></span>
+            <br>
+            <div class="sent"></div>
+            <br>
+            <a href="./">Terms and Conditions</a> 
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

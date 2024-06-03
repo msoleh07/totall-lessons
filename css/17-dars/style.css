@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    /* animatsiya nomi */
+    animation-name: quti;
+    /* animatsiya vaqt davomiyligi */
+    animation-duration: 2s;
+    /* animatsiya kirganda kutish vaqti */
+    animation-delay: 0s;
+    /* animatsiya harakatlanish soni */
+    animation-iteration-count: 3;
+    /* animatsiya bir joyda turishi */
+    animation-fill-mode: backwards;
+    /* animatsiya harakati */
+    animation-direction: alternate;
+    /* animatsiya harakat turi */
+    animation-timing-function: ease-in;
+}
+
+.box:hover {
+    animation-play-state: paused;
+}
+
+@keyframes quti {
+    from {
+        background-color: red;
+        transform: translateX(0px);
+    }
+
+    to {
+        background-color: blue;
+        transform: translateX(500px);
+    }
+}
+
+/* ---------------------------- */
+
+h1 {
+    text-align: center;
+    animation-name: text;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes text {
+    from {
+        transform: scale(1);
+        color: red;
+    }
+
+    to {
+        transform: scale(3);
+        color: blue;
+    }
+}
+
+h2 {
+    text-align: center;
+    margin-top: 100px;
+    background-color: yellow;
+    padding: 100px 0;
+}
+
+h2:hover i {
+    animation: jump .5s linear infinite alternate;
+}
+
+@keyframes jump {
+    from {
+        transform: translateY(0);
+        color: red;
+    }
+
+    to {
+        color: blue;
+        transform: translateY(50px)
+    }
+}

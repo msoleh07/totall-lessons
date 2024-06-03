@@ -1,0 +1,53 @@
+h1 {
+    /* margin-left: 50px; */
+    /* padding: 20px; */
+    background: wheat;
+    /* margin-top: 20px; */
+    /* margin-left: 20px; */
+    /* margin-bottom: 20px; */
+    /* margin-right: 20px; */
+    /* margin: 20px 0px 60px 80px; */
+
+
+    padding: 20px;
+
+    /* border-width: 10px;
+    border-style:solid;
+    border-color: red; */
+
+    border: 10px solid blue;
+
+
+    /* border-top-color:blue;
+    border-top-width:10px;
+    border-top-style: solid; */
+    /* border-top: 10px solid blue; */
+
+
+    /* border-bottom-color:red;
+    border-bottom-width:10px;
+    border-bottom-style: dashed; */
+    /* border-bottom:10px dashed red ; */
+
+    /* border-right-color:orangered;
+    border-right-width:10px;
+    border-right-style: double; */
+    /* border-right:10px double orangered ; */
+
+    /* border-left-color:aqua;
+    border-left-width:10px; 
+    border-left-style: dotted; */
+    /* border-left:10px double aqua; */
+
+
+
+    /* border-radius: 20px 40px 60px 80px; */
+
+
+    border-top-right-radius: 50px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 80px;
+
+
+}

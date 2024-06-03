@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <img src="./Снимок экрана 2023-08-22 112820.png" alt="">
+        <p onclick="showdata()" id="pi">Shop<i class="fa-solid fa-arrow-down" style="color: #000000;"></i><i
+                class="fa-sharp fa-solid fa-arrow-up" style="color: #000000;"></i></p>
+        <p onclick="showdate()" id="pi">Support<i class="fa-solid fa-arrow-down" style="color: #000000;"></i><i
+                class="fa-sharp fa-solid fa-arrow-up" style="color: #000000;"></i></p>
+        <br>
+        <span>Busines</span>
+        <div class="hedr">
+            <i onclick="classic()" class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            <i onclick="openloginl()" class="fa-solid fa-user" style="color: #000000;"></i>
+            <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+        </div>
+    </header>
+
+
+
+
+
+
+    <div class="ligin">
+        <div class="p">
+
+            <p onclick="biar()">Sign In</p><i onclick="ir()" class="fa-solid fa-xmark" style="color: #000000;"></i>
+        </div>
+        <p onclick="biare()">Log In</p>
+        <p>Order Lock Up</p>
+    </div>
+
+
+    <div class="login">
+
+        <p>Sign In</p>
+        <div class="login_item">
+            <div class="inklik">
+
+                <div class="inputlar">
+
+                    <b>Email Address</b>
+                    <br>
+                    <input id="email" type="text" placeholder="email">
+                    <br>
+                    <a class="a" href="./">Remember Email</a>
+                </div>
+
+                <div class="inputlar2">
+
+                    <span>
+
+                        <b>Password</b>
+                        <br>
+                        <input id="password" type="text" placeholder="password">
+                    </span>
+                </div>
+                <button onclick="check()">Sing In</button>
+                <br>
+                <div class="klent">
+
+                    <a href="./">Forgot password?</a>
+                    <br>
+                    <span>u can also choose to use your MyLG account on LG.com for <br>business. Your MyLG account is
+                        the email address you use to sign in <br>to LG ThinQ and LG Smart TV apps. </span>
+                </div>
+            </div>
+
+        </div>
+        <div class="it">
+
+        </div>
+        <div class="login_items">
+
+        </div>
+
+    </div>
+
+    <div class="search">
+        <div class="p">
+
+            <h3>Close
+                What can we help you find today?</h3><i onclick="i()" class="fa-solid fa-xmark"
+                style="color: #000000;"></i>
+        </div>
+        <main>
+            <input type="text" placeholder="Search LG">
+            <br>
+            <br>
+            <button onclick="addToDo()"> <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
+        </main>
+        <ul>
+
+        </ul>
+        <b>CAN WE HELP?</b>
+        <br>
+        <a href="Product Support">Product Support</a>
+        <br>
+        <a href="Online Chat">Online Chat</a>
+        <br>
+        <a href="Email Support">Email Support</a>
+    </div>
+
+    <div class="klear">
+        <i onclick="shouv()" class="fa-solid fa-xmark" style="color: #000000;"></i>
+        <p>Shop</p>
+        <div class="span">
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+                <link rel="stylesheet" href="./style.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+                    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+                    crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+                    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+                    crossorigin="anonymous">
+            </head>
+
+            <body>
+                <header>
+                    <img src="./Снимок экрана 2023-08-22 112820.png" alt="">
+                    <p onclick="showdata()" id="pi">Shop<i class="fa-solid fa-arrow-down" style="color: #000000;"></i><i
+                            class="fa-sharp fa-solid fa-arrow-up" style="color: #000000;"></i></p>
+                    <p onclick="showdate()" id="pi">Support<i class="fa-solid fa-arrow-down"
+                            style="color: #000000;"></i><i class="fa-sharp fa-solid fa-arrow-up"
+                            style="color: #000000;"></i></p>
+                    <br>
+                    <span>Busines</span>
+                    <div class="hedr">
+                        <i onclick="classic()" class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                        <i onclick="openloginl()" class="fa-solid fa-user" style="color: #000000;"></i>
+                        <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                    </div>
+                </header>
+
+
+
+
+
+
+                <div class="ligin">
+                    <div class="p">
+
+                        <p onclick="biar()">Sign In</p><i onclick="ir()" class="fa-solid fa-xmark"
+                            style="color: #000000;"></i>
+                    </div>
+                    <p onclick="biare()">Log In</p>
+                    <p>Order Lock Up</p>
+                </div>
+
+
+                <div class="login">
+
+                    <p>Sign In</p>
+                    <div class="login_item">
+                        <div class="inklik">
+
+                            <div class="inputlar">
+
+                                <b>Email Address</b>
+                                <br>
+                                <input id="email" type="text" placeholder="email">
+                                <br>
+                                <a class="a" href="./">Remember Email</a>
+                            </div>
+
+                            <div class="inputlar2">
+
+                                <span>
+
+                                    <b>Password</b>
+                                    <br>
+                                    <input id="password" type="text" placeholder="password">
+                                </span>
+                            </div>
+                            <button onclick="check()">Sing In</button>
+                            <br>
+                            <div class="klent">
+
+                                <a href="./">Forgot password?</a>
+                                <br>
+                                <span>u can also choose to use your MyLG account on LG.com for <br>business. Your MyLG
+                                    account is the email address you use to sign in <br>to LG ThinQ and LG Smart TV
+                                    apps. </span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="it">
+
+                    </div>
+                    <div class="login_items">
+
+                    </div>
+
+                </div>
+
+                <div class="search">
+                    <div class="p">
+
+                        <h3>Close
+                            What can we help you find today?</h3><i onclick="i()" class="fa-solid fa-xmark"
+                            style="color: #000000;"></i>
+                    </div>
+                    <main>
+                        <input type="text" placeholder="Search LG">
+                        <br>
+                        <br>
+                        <button onclick="addToDo()"> <i class="fa-solid fa-magnifying-glass"
+                                style="color: #000000;"></i></button>
+                    </main>
+                    <ul>
+
+                    </ul>
+                    <b>CAN WE HELP?</b>
+                    <br>
+                    <a href="Product Support">Product Support</a>
+                    <br>
+                    <a href="Online Chat">Online Chat</a>
+                    <br>
+                    <a href="Email Support">Email Support</a>
+                </div>
+
+                <div class="klear">
+                    <i onclick="shouv()" class="fa-solid fa-xmark" style="color: #000000;"></i>
+                    <p>Shop</p>
+                    <div class="span"><span>Appliances</span>
+                        <span>TV $ Home Theater</span>
+                        <span>Coputing</span>
+                        <span>Audio</span>
+                        <span>Accessoriec</span>
+                        <span>Home Upgrades</span>
+                    </div>
+                    <br>
+                    <span>
+
+                        <div class="item">
+
+                        </div>
+                        <div class="hr">
+
+                        </div>
+                    </span>
+                    <div class="element">
+
+
+                        <div class="text">
+                            <a href="./">Refrigerators</a>
+                            <a style="color: #0000008c;" href="./">French Door</a>
+                            <a style="color: #0000008c;" href="./">Counter Depth</a>
+                            <a style="color: #0000008c;" href="./">Side-by-Side</a>
+
+                        </div>
+
+                        <div class="text">
+                            <a href="./">Dishwashers</a>
+                            <a style="color: #0000008c;" href="./">Front Control</a>
+                            <a style="color: #0000008c;" href="./">Top Control</a>
+
+                        </div>
+
+                        <div class="text">
+                            <a href="./">Cooking Appliances</a>
+                            <a style="color: #0000008c;" href="./">Ranges & Ovens</a>
+                            <a style="color: #0000008c;" href="./">Wall Ovens</a>
+                            <a style="color: #0000008c;" href="./">Cooktops</a>
+                            <a style="color: #0000008c;" href="./">Hoods</a>
+                            <a style="color:#0000008c;" href="./">Microwave Ovens</a>
+
+                        </div>
+
+                        <div class="text">
+                            <a href="./">LG STUDIO</a>
+                            <a href="./">Signature Kitchen Suite</a>
+
+                        </div>
+
+                        <div class="text">
+                            <a href="./">Washers & Dryers</a>
+                            <a style="color: #0000008c;" href="./">Washers</a>
+                            <a style="color: #0000008c;" href="./">Dryers</a>
+                            <a style="color: #0000008c;" href="./">Washer Dryer Combos</a>
+
+                        </div>
+
+                        <div class="text">
+                            <a href="./">Styler Steam Closet</a>
+                            <a href="./">Vacuum</a>
+
+                        </div>
+
+                        <div class="text">
+                            <a href="./">Air Purifiers
+                            </a>
+                            <a style="color: #0000008c;" href="./">Dehumidifiers</a>
+                            <a style="color: #0000008c;" href="./">Air Conditioners</a>
+                            <a style="color: #0000008c;" href="./">Window Air Conditioners</a>
+                            <a style="color: #0000008c" href="./">Portable Air Conditioners</a>
+                            <a style="color: #0000008c" href="./">Wall Air Conditioners</a>
+
+
+                        </div>
+
+                        <div class="text">
+                            <a href="./">Appliances Accessories</a>
+                            <a style="color: #0000008c;" href="./">Kitchen</a>
+                            <a style="color: #0000008c;" href="./">Refrigerator Filters</a>
+                            <a style="color: #0000008c;" href="./">Laundry</a>
+                            <a style="color: #0000008c;" href="./">Other</a>
+
+                        </div>
+
+                        <div class="text">
+                            <a href="./">Deals & Promotions</a>
+                            <a style="color: #0000008c;" href="./">Kitchen</a>
+                            <a style="color: #0000008c;" href="./">Laundry</a>
+                            <a style="color: #0000008c;" href="./">Other</a>
+                            <a style="color: #0000008c;" href="./">Rebates</a>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="kler">
+                    <i onclick="shouve()" class="fa-solid fa-xmark" style="color: #000000;"></i>
+                    <h2>Product Support</h2>
+                    <div class="kilr">
+                        <div class="kilir">
+                            <a style="color: #000000;" href="./">Parts & Accessories</a>
+                            <a style="color: #0000008c;" href="./">Warranty Information</a>
+                            <a style="color: #0000008c;" href="./">LG Premium Care</a>
+                            <a style="color: #0000008c;" href="./">Product Registration</a>
+                            <a style="color: #0000008c;" href="./">Order Status</a>
+
+
+                        </div>
+                        <div class="kilir">
+                            <a style="color: #0000008c;" href="./">Repair Services</a>
+                            <a href="./">Request a Repair</a>
+                            <a href="./">Track Repair</a>
+                            <a href="./">Find Service Center</a>
+
+                        </div>
+                        <div class="kilir">
+                            <a style="color: #000000;" href="./">Product Information</a>
+                            <a href="./">Manuals & Documents</a>
+                            <a href="./">Help Library</a>
+                            <a href="./">Software & Drivers</a>
+                            <a href="./">LG Recycling Program</a>
+                        </div>
+                        <div class="kilir">
+                            <a style="color: #000000;" href="./">LG ThinQ</a>
+                            <a href="./">Get started with LG ThinQ</a>
+                            <a href="./">LG ThinQ with Amazon Alexa</a>
+                            <a href="./">LG ThinQ with Google Assistant</a>
+                        </div>
+                        <div class="kilir">
+                            <a style="color: #000000;" href="./">Contact Us</a>
+                            <a style="color: #000000;" href="./">All Support ></a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="kontainer">
+                    <p>Our Top Picks For You</p>
+                    <br>
+                    <span>Thinking about an upgrade? Shop some of our top rated products here.</span>
+                    <div class="kontainer_item">
+
+                        <div class="cards">
+                            <img src="./350.avif" alt="">
+                            <span>Oled77G3PUA</span>
+                            <p>LG OLED evo G3 77 inch <br>4K Smart TV 2023
+                            </p>
+                            <button class="button"><b>SHOP NOW</b></button>
+                        </div>
+                        <div class="cards">
+                            <img src="./350.jpg" alt="">
+                            <span>Oled77G3PUA</span>
+                            <p>"27'' UltraGear™ OLED <br> Gaming Monitor QHD <br> with 240Hz Refresh <br> Rate 0.03ms
+                                Response <br> Time" <br></p>
+                            </p>
+                            <button class="butto"><b>SHOP NOW</b></button>
+                        </div>
+                        <div class="cards">
+                            <img src="./3502.webp" alt="">
+                            <span>Oled77G3PUA</span>
+                            <p>LG OLED evo G3 77 inch <br>4K Smart TV 2023
+                            </p>
+                            <button class="butt"><b>SHOP NOW</b></button>
+                        </div>
+                        <div class="cards">
+                            <img src="./md08001161-350x350 (1).webp" alt="">
+                            <span>Oled77G3PUA</span>
+                            <p>LG OLED evo G3 77 inch <br>4K Smart TV 2023
+                            </p>
+                            <button class="but"><b>SHOP NOW</b></button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="blur">
+                    <b>Coming Soon</b>
+                    <h2>"World’s first OLED with <br> wireless 4K 120Hz <br> connectivity.<sup>3</sup>"</h2>
+                    <h4>"Be one of the first to experience wireless connectivity using the <br> Zero Connect Box". Sign
+                        up for notifications when the M3 OLED <br> is available."</h4>
+                    <div class="btn">
+
+                        <button class="button">LEARN MORE</button>
+                    </div>
+                </div>
+
+
+                <div class="hover">
+                    <div class="hover_item">
+                        <p>A Better Way to Shop with LG</p>
+                        <br>
+                        <span>Purchase your favorite products on LG.com and enjoy benefits like free shipping,
+                            financing, and extended-service <br> warranties.</span>
+                        <div class="create">
+                            <div class="bes">
+                                <img src="./i.png" alt="">
+                                <h2>Free Standard Shipping <sup>*</sup>
+                                    <br>
+                                    <p>Free, fast delivery straight to <br> your door.</p>
+                                </h2>
+                            </div>
+                            <div class="bese">
+                                <img src="./iclasssss.avif" alt="">
+                                <h2>Buy Now, Pay Later</h2>
+                                <p>Choose from 4 interest-free <br> installments or 12-36 month <br> financing with up
+                                    to 0% APR. <br> <a href="./">Terms And conditions apply</a> </p>
+                            </div>
+                            <div class="besr">
+                                <img src="./icon-warranty.png" alt="">
+                                <h2>Dynamic Scheduling</h2>
+                                <p>Schedule your appliance delivery appointments during checkout</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="car">
+                    <h2>Latest Promotions</h2>
+                    <div class="car_item">
+
+                        <div class="cerd">
+                            <img src="./latest-promo-superslimoled.avif" alt="">
+                            <h2>Work & play anywhere <br> with the gram <br> SuperSlim OLED</h2>
+                            <p>"Get a free USB Multi Hub with <br> purchase of the gram <br> SuperSlim OLED. Add both to
+                                <br> cart to apply savings at <br> checkout ($89.99 value). Offer <br> ends 9/10/2023.
+                                Terms and <br> Conditions apply."
+                            </p>
+                            <button class="sho">SHOP NOW</button>
+
+                        </div>
+                        <div class="cerd">
+                            <img src="./epromotions-tout-2.avif" alt="">
+                            <h2>Give the grill a break with a cooking power pair</h2>
+                            <p>"Save $250 off when you combine an eligible wall oven and cooktop in a single purchase.
+                                Offer ends 9/13/23. Terms and conditions apply."</p>
+                            <button class="shop">SHOP NOW</button>
+                        </div>
+                        <div class="cerd">
+                            <img src="./epromotions-tout-tvs-20230712.png" alt="">
+                            <h2>Bring home a cinematic duo and get $200 off the bundle</h2>
+                            <p>"Purchase the eligible LG SC9S Sound Bar and an eligible LG OLED evo C2 or C3 Series TV
+                                in a single transaction on LG.com and receive a $200 discount. Offer ends 12/31/23.
+                                Terms and conditions apply."</p>
+                            <button class="sh">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="futer3">
+                    <h2>Come home to your dream space</h2>
+                    <p>LG home appliances help you build the home you've always wanted.</p>
+                    <div class="frik">
+
+                        <div class="img">
+                            <img src="./large-tout-laundry.avif" alt="">
+                        </div>
+                        <div class="image">
+                            <div class="image_item">
+                                <img src="./tout-small-s5msb.avif" alt="">
+                                <h2>"LG STUDIO Styler - <br> Refresh Garments... "</h2>
+                                <a href="./">shop now</a>
+                            </div>
+                            <div class="image_items">
+                                <img src="./tout-small-swwe50n3.avif" alt="">
+                                <h2>
+                                    "LG STUDIO WashTower™ Smart
+                                </h2>
+                                <a href="./">shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="html">
+                    <h2>Current LG Owners</h2>
+                    <p>We are committed to making your product experience as enjoyable as possible, from purchase all
+                        the way through <br>the life of the product. Explore product tips, service plans and more, to
+                        help you get the most out of your product.</p>
+                    <span><a href="./">Registration Benefits </a> <a href="./">Service and Support</a></span>
+                    <div class="html_item">
+                        <div class="link">
+                            <img src="./icon-verification.png" alt="">
+                            <h2>Verification</h2>
+                            <p>Verification of <br> ownership in the <br> unlikely event of <br> an insurance <br> claim
+                            </p>
+                        </div>
+                        <div class="link">
+                            <img src="./icon-tips.png" alt="">
+                            <h2>Tips</h2>
+                            <p>Insider tips to <br> maximize the <br> full potential of <br> your product</p>
+                        </div>
+                        <div class="link">
+                            <img src="./icon-serviceplan.png" alt="">
+                            <h2>Services Plan</h2>
+                            <p>Lowest price for <br> LG Premium <br> Care to extend <br> your <br> manufacturer's
+                                warranty</p>
+                        </div>
+                        <div class="link">
+                            <img src="./icon-support.png" alt="">
+                            <h2>Support</h2>
+                            <p>Expdite <br>support & <br> service</p>
+                        </div>
+                        <div class="link">
+                            <img src="./icon-offers.png" alt="">
+                            <h2>Offers & <br> Events</h2>
+                            <p>Early access to <br> special offers <br> and events</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="futer">
+
+                </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+                    crossorigin="anonymous"></script>
+                <script src="./app.js"></script>
+            </body>
+
+            </html>

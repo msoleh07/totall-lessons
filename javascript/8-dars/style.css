@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: digital;
+  src: url(./digital-7.ttf);
+}
+
+.clock {
+  width: 95%;
+  height: 670px;
+  background-color: #111;
+  margin: 50px auto;
+  color: #26c706;
+}
+
+.clock .hours {
+  padding-top: 50px;
+  width: 100%;
+}
+
+.clock .hours h1 {
+  font-size: 19vw;
+  text-align: center;
+}
+
+.clock .hours h1 i {
+  font-family: digital;
+}
+
+.clock .week {
+  width: 100%;
+  padding: 50px 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+}
+
+.clock .week .time {
+  margin: 0 25px;
+}
+
+.clock .week .time2 {
+  opacity: .4;
+}
+
+.clock .week .weeks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+}
+
+.clock .week .weeks p {
+  opacity: .4;
+}
+
+.clock .week .weeks p:nth-child(5) {
+  opacity: 1;
+}
+
+.clock .fullYear {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 100px;
+  padding: 0 9%;
+  margin: 60px 0;
+}
+
+.clock .fullYear .date {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.clock .fullYear .date span {
+  font-family: digital;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.clock .fullYear .temp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  gap: 20px;
+  font-size: 35px;
+}
+/*# sourceMappingURL=style.css.map */
